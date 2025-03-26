@@ -108,7 +108,8 @@ body {
 }
 
 .product-button:disabled {
-    background-color: grey;
+    background-color: grey !important;
+    cursor: not-allowed;
 }
 
 .product-button:hover {
